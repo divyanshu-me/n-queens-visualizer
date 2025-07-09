@@ -9,6 +9,9 @@ with step‑by‑step animation, pause/step controls, and solution‑by‑soluti
 - Adjustable board size (4–16).
 - HUD overlay with status and speed controls.
 
+## Screenshot
+![Visualizer Screenshot](screenshot.png)
+
 ## Build & Run
 
 ```powershell
@@ -18,3 +21,4 @@ g++ ../main.cpp ../BacktrackingSolver.cpp -o visualizer.exe `
     -I../SFML-3.0.0/include -L../SFML-3.0.0/lib `
     -lsfml-graphics -lsfml-window -lsfml-system
 .\visualizer.exe
+
