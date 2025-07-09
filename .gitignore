@@ -1,27 +1,16 @@
-# Build directory
-build/
-
-# Windows executables and object files
-*.exe
+# Ignore SFML SDK directory
+SFML-3.0.0/
+*.lib
 *.dll
+*.cmake
+
+# Ignore build artifacts
+build/
+*.exe
+*.out
 *.obj
 *.o
 
-# SFML unneeded personal files
-SFML-3.0.0/
-
-# Editor or IDE settings you don’t want to track,
-.vscode/
-*.suo
-*.user
-
-# Logs, temp files
-*.log
-*.tmp
-
-# macOS
+# Misc
 .DS_Store
-
-# Visual Studio
-*.vcxproj*
-*.filters
+Thumbs.db
